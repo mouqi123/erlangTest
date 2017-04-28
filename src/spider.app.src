@@ -1,0 +1,12 @@
+{application, spider,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { spider_app, []}},
+  {env, []}
+ ]}.
